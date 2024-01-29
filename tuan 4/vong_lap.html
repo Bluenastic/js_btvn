@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square {
+            width: 50px;
+            height: 30px;
+            display: inline-block; /* Thay thế float: left */
+            border: 1px solid gray;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        .even-row .square {
+            background: yellow;
+        }
+
+        .odd-row .square {
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <script language="javascript" type="text/javascript">
+        for (var i = 0; i < 5; i++) {
+            document.write("<div class='row'>"); // Thêm class 'row'
+            for (var j = 0; j < 10; j++) {
+                var rowClass = (i % 2 === 0) ? 'even-row' : 'odd-row';
+                document.write("<div class='square " + rowClass + "'> <button onclick='tenham()'>hello</button>  </div>");
+            }
+            document.write("</div>");
+        }
+
+        function tenham() {
+            alert("hello");
+        }
+    </script>
+</body>
+</html>
