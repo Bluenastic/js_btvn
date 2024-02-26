@@ -35,11 +35,10 @@ body {
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 50px; 
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
-
 button {
     margin: 0 5px;
     padding: 5px 10px;
