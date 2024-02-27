@@ -61,7 +61,7 @@ function listProducts(){
         demo += '<div class= "card-body">'; 
         demo += '<h5 class="card-title">'+man[i].name+'</h5>';
         demo += '<p class="card-text">'+man[i].price+'</p>'; 
-        demo += '<p class="card-text"><span class="old-price">Giá cũ: ' + man[i].oldPrice + '</span></p>';
+        demo += '<p class="card-text"><span class="old-price"><del>Giá cũ: ' + man[i].oldPrice + '</del></span></p>';
         demo += '<a href="#" class="btn btn-primary" onclick="oder()">Đặt mua</a>';
         demo += '</div>';
         demo += '</div>';
@@ -76,7 +76,7 @@ function listProducts(){
         demo += '<div class="card-body">';
         demo += '<h5 class="card-title">'+women[i].name+'</h5>';
         demo += '<p class="card-text">'+women[i].price+'</p>';
-        demo += '<p class="card-text"><span class="old-price">Giá cũ: ' + women[i].oldPrice + '</span></p>';
+        demo += '<p class="card-text"><span class="old-price"><del>Giá cũ: ' + women[i].oldPrice + '</del></span></p>';
         demo += '<a href="#" class="btn btn-primary" onclick="oder()">Đặt mua</a>';
         demo += '</div>';
         demo += '</div>';
