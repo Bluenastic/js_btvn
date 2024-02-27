@@ -5,7 +5,7 @@ var man = [
         code: "TC102",
         price: "250.000",
         oldPrice: "350.000",
-        image: "https://product.hstatic.net/1000271846/product/pants-beige-01_7caa0ecd9ff040e3a231d89f7e4ea5db_master.jpg"
+        image: "https://th.bing.com/th/id/R.e97b6095521a791e1757e92996b5cd7c?rik=Cm738NSedS7z0w&pid=ImgRaw&r=0"
 
     }, 
     {
@@ -14,7 +14,7 @@ var man = [
         code: "TC103",
         price: "350.000",
         oldPrice: "450.000",
-        image: "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/March2023/s6.917_72.jpg"
+        image: "https://lzd-img-global.slatic.net/g/p/d8b2322240b87f863db039005317a6fb.jpg_720x720q80.jpg"
 
     },
     {
@@ -33,7 +33,7 @@ var women = [
         code: "EC201",
         price: "450.000",
         oldPrice: "550.000",
-        image: "https://img.fantaskycdn.com/7aa7a791569b5d7707cee30a83b39bb9_750x.jpeg"
+        image: "https://th.bing.com/th/id/OIP.3i22ZKbS61Zh0SBxaCpB5wHaI2?rs=1&pid=ImgDetMain"
     },
     {
         id:2,
@@ -41,7 +41,7 @@ var women = [
         code: "EC202",
         price: "190.000",
         oldPrice: "550.000",
-        image: "https://canifa.com/img/1000/1500/resize/6/k/6ks23w008-sk010-1-thumb.webp"
+        image: "https://th.bing.com/th/id/OIP._JxzZX0DwJOik2hSvv0iIgHaHa?rs=1&pid=ImgDetMain"
     },
     {
         id:3,
