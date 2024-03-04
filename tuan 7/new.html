@@ -3,20 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js.bootstrap.min.js"></script>
+    <script src="./js.jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <script>
-            var name = ["html","cas","gh"];
-            var i;
-            for(i=0;i<=name;i++)
-            {
-                if(name[i]="php"){
-                alert("co php");
-                }
-            }
-        </script>
+    <div class="col-12">
+        <h1 style="font-family: initial; color:rgb(64, 127, 127)">shop<b><span
+        style="color:rgb(55,39,193);"></span> </b></h1>
     </div>
+    <h2>customer name:</h2>
+    <input type="text" id="name">><br>
+    <h2>id:</h2>
+    <input type="text" id="id"><br>
+    <h2>product name:</h2>
+    <input type="text" id="product"><br>
+    <h2>quantity:</h2>
+    <input type="text" id="quantity"><br>
+    <h2>price:</h2>
+    <input type="text" id="price"><br><br>
+
+    <input type="button" value="save" onclick="save()">
+    <input type="button" value="show" onclick="show()">
+    <input type="button" value="reset" onclick="reset()">
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>atuo increment</th>
+                <th>customer name</th>
+                <th>id</th>
+                <th>product</th>
+                <th>quantity</th>
+                <th>price</th>
+                <th>total</th>
+            </tr>
+        </thead>
+        <tbody id="tbl"></tbody>
+    </table>
+
 </body>
 </html>
