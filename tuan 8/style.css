@@ -21,7 +21,7 @@ body {
 
   input[type="buttonADD"] {
     padding: 5px;
-    max-width: 45px;
+    max-width: 50px;
     background-color: #2b2c2f;
     color: #fff;
     border: none;
@@ -31,7 +31,7 @@ body {
 
   input[type="text"] {
     width: 100%;
-    max-width: 200px;
+    max-width: 160px;
     padding: 10px 20px;
     margin-bottom: 10px;
     border: 1px solid #08b8cb;
