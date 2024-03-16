@@ -101,8 +101,8 @@
         "<td><img src=" + women[i].image + " style=height:50px;width:50px></td>";
       html += "<td>" + women[i].price + "</td>";
       html += "<td>" + women[i].newPrice + "</td>";
-      html += "<td><button onclick=\"editProduct(" + man[i].id + ", 'man')\">Sửa</button></td>";
-      html += "<td><button onclick=\"deleteProduct(" + man[i].id + ", 'man')\">Xóa</button></td>";
+      html += "<td><button onclick=\"editProduct(" + women[i].id + ", 'women')\">Sửa</button></td>";
+      html += "<td><button onclick=\"deleteProduct(" + women[i].id + ", 'women')\">Xóa</button></td>";
       html += "</tr>";
     }
   
